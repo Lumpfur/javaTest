@@ -1,0 +1,9 @@
+src
+|--- vehicles (main package)
+|       |--- Vehicle.java (father class)
+|       |--- Car.java
+|       |--- ElectricCar.java
+|--- app (testing package)
+      |--- TestCar.java
+
+тройная иерархия в vehicles !
