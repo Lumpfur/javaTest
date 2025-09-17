@@ -10,7 +10,7 @@ public class ElectricCar extends Car {
         this.batteryCapacity = batteryCapacity; // новый параметр и снова указатель
     }
 
-    @Override
+    //@Override
     public String vehicleType() {
         return "Электромобиль";
     }
@@ -24,7 +24,7 @@ public class ElectricCar extends Car {
         this.batteryCapacity = batteryCapacity;
     }
 
-    @Override
+    //@Override
     public String toString() {
         return super.toString() + ", Емкость батареи: " + batteryCapacity + " кВт·ч";
     }
