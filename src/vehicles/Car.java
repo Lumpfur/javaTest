@@ -9,13 +9,13 @@ public class Car extends Vehicle {
     }
 
     // реализация абстрактного метода
-    @Override
+    //@Override
     public String vehicleType() {
         return "Автомобиль";
     }
 
     // опять переобувка
-    @Override
+    //@Override
     public String toString() {
         return super.toString();
     }
